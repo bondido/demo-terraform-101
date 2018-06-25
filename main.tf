@@ -1,9 +1,9 @@
 terraform {
-  required_version = ">= 1.20.0"
+  required_version = ">= 0.11.0"
 }
 
 provider "aws" {
-  version = "~> 1.5"
+  version = ">= 0.11.0"
 }
 
 module "server" {
